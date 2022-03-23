@@ -15,4 +15,4 @@ jobs:
             -   name: Fix style
                 uses: docker://oskarstark/php-cs-fixer-ga
                 with:
-                    args: --config=.php-cs-fixer.php --dry-run --diff-format="udiff"
+                    args: --config=.php-cs-fixer.php --dry-run --diff
